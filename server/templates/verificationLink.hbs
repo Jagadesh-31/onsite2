@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Email Verification</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: white; width: 100%;">
+  <div style="display: flex;flex-direction: column;justify-content: center; align-items: center; height: 80vh; width: 100%; background-color:white">
+    <div style="color: #000;background-color:#F7F4ED; display: flex; flex-direction: column; justify-content:between;align-items: center;border:#000 solid 2px;padding:10px 14px;border-radius:10px">
+      <ul style="color: #000; display: flex; flex-direction: column; gap: 20px; list-style: none;">
+        <li style="font-size: 34px ;font-weight: bold; text-align: center;">Medium.</li>
+        <li style="font-size: 22px; text-align: center;">Your login link</li>
+        <li style="font-size: 20px; text-align: center;">Click the link below to sign in to your Medium account.</li>
+        <li style="font-size: 20px; text-align: center;">This link will expire in 2 hours and can only be used once.</li>
+        <li style="font-size: 20px; text-align: center;color:#F7F4ED ;background-color:black ;font-size:16px ;border-radius: 20px;padding:10px 20px;cursor:pointer;align-self:center">Sign in to Medium</li>
+        <li style="text-align: center;">If the button above doesn't work, paste this link into your web browser: 
+          <a href="{{link}}" style="color: #dc2626;">{{link}}</a>
+        </li>
+      </ul>
+      <p style="font-size: 14px; text-align: center; color: #919191;">
+        Click “Sign up” to agree to Medium's Terms of Service and acknowledge that Medium's Privacy Policy applies to you.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
